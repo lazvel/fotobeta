@@ -1,0 +1,58 @@
+label {
+	color: #fff;
+	font-size: 14pt;
+}
+
+.modal{
+	margin-top: 7%;
+}
+.modal h1{
+  text-align: center;
+  color: #fff;
+}
+.border{
+  width: 200px;
+  height: 5px;
+  background: #fff;
+  margin: 40px auto;
+
+}
+.contact-form-texxt{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #FFF;
+  transition: 0.5s;
+}
+.contact-form-texxt:focus{
+  box-shadow: 0 0 10px 4px #fff;
+}
+.izbor{
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.forma{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+.dugme{
+  float: right;
+  border: 0;
+  background: #000;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.dugme:hover{
+  background: #ccc;
+}

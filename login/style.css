@@ -1,0 +1,68 @@
+
+
+html, body, table {
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+label, button {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+th {
+	background-image: linear-gradient(silver, white, silver);
+	padding: 0.25em;
+	vertical-align: middle;
+}
+
+td {
+	border: 1px solid gray;
+	border-left: none;
+	border-right: none;
+}
+form div {
+	display: inline-block;
+}
+
+ul {
+	margin: 1em 0;
+}
+
+p {
+	margin: 0;
+}
+
+.greska {
+	background: yellow;
+	color: white;
+	padding: 2em;
+	text-align: center;
+	background-image: linear-gradient(red, black, red);
+	border: 1px solid red;
+}
+
+.asc:after,
+.desc:after {
+	color: red;
+	font-weight: bold;
+	padding: 0 0.5em;
+	content: '^';
+	display: inline-block;
+}
+
+.asc:after {
+}
+
+.desc:after {
+	transform: rotate(180deg);
+}
+

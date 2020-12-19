@@ -1,0 +1,21 @@
+body{
+	background-image: url("slider3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.radi{
+	border: 3px solid #003399;
+	margin: 5% 25% 0% 25%;
+	padding: 5% 10%;
+	color: white;
+	background-color: #000;
+}
+td {
+	font-size: 16pt;
+}
+a {
+	text-decoration: none;
+	color: aqua;
+}
+
+

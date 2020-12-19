@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles/login.css" type="text/css"/>
+		<meta charset="utf-8">
+		<title>Prijavljivanje</title>
+	</head>
+	
+	<body>
+	
+		<form method="post" target="ajax">
+		
+		<table class="radi">
+		<tr>
+			<td colspan="2" align="center">
+				<h2><b>Prijavljivanje</b></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Korisničko ime:
+			</td>
+			<td>
+				<input name="korisnicko_ime">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Lozinka:
+			</td>
+			<td>
+				<input type="password" name="lozinka">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="submit" value="Pošalji">
+				<p>Ovo je samo za admina i vlasnika stranice</p>
+				<a href="../">Povratak na početnu stranicu</a>
+			</td>
+		</tr>
+		</table>
+		</form>
+		<iframe name="ajax" style="display: none"></iframe>
+	</body>
+
+</html>
